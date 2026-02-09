@@ -106,6 +106,7 @@
      bat
      fastfetch
      gh
+     flatpak
    ];
   
   # Allow Unfree packages (Sorry Stallman!)
