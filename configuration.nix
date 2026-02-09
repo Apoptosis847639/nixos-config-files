@@ -104,7 +104,8 @@
      btop
      neovim
      bat
-     fastfetch 
+     fastfetch
+     gh
    ];
   
   # Allow Unfree packages (Sorry Stallman!)
