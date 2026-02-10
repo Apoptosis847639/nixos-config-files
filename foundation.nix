@@ -1,5 +1,5 @@
+# Can't boot this file >:3
 { config, lib, pkgs, ... }:
-
 
 {
    environment.systemPackages = with pkgs; [
