@@ -9,4 +9,14 @@
         gnumake
         ninja
     ];
+    programs.git = {
+    enable = true;
+    config = {
+        user = {
+            name  = "Jan W.";
+            email = "janjaydenw730@gmail.com";
+        };
+        init.defaultBranch = "main";
+        };
+    };
 }
