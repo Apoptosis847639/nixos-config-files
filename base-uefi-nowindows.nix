@@ -4,7 +4,7 @@
 
 {
    imports = [
-    "foundation.nix" # Importing the foundation
+      ./foundation.nix # Importing the foundation
    ];
 
    # Enabling Systemd boot for UEFI

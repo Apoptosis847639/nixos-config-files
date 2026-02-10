@@ -4,7 +4,7 @@
 
 {
    imports = [
-    "foundation.nix" # Importing the foundation
+      foundation.nix # Importing the foundation
    ];
 
    # Enabling GRUB bootloader for BIOS, also this automatically enables OS-Prober, so you don't need to import the OS-Prober module!

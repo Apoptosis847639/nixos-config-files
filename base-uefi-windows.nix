@@ -5,8 +5,8 @@
 
 {
    imports = [
-    "foundation.nix" # Importing the foundation
-    "./modules/uefi-osprober.nix" # Importing OSProber support
+    foundation.nix # Importing the foundation
+    ./modules/uefi-osprober.nix # Importing OSProber support
    ];
 
    # Enabling GRUB for UEFI

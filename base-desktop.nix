@@ -4,7 +4,7 @@
 
 {
     imports = [
-        "./modules/user.nix"
+        ./modules/user.nix
     ];
     environment.systemPackages = with pkgs; [
         kitty # Add Kitty, the terminal emulator

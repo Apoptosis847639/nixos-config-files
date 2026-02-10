@@ -3,11 +3,11 @@
 
 {
     imports = [
-        "./base-desktop.nix"
-        "./base-uefi-nowindows.nix"
-        "./modules/kdeplasma.nix"
-        "./modules/sddm.nix"
-        "./modules/devthings.nix"
-        "./modules/unfree.nix"
+        ./base-desktop.nix
+        ./base-uefi-nowindows.nix
+        ./modules/kdeplasma.nix
+        ./modules/sddm.nix
+        ./modules/devthings.nix
+        ./modules/unfree.nix
     ];
 }
