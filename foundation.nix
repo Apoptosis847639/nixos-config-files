@@ -2,13 +2,19 @@
 { config, lib, pkgs, ... }:
 
 {
-   environment.systemPackages = with pkgs; [
-     vim
-     wget
-     btop
-     bat
-     fastfetch
-   ];
+  imports =
+    [ # Include the results of the hardware scan.
+        ./hardware-configuration.nix
+    ];
+  environment.systemPackages = with pkgs; [
+    vim
+    wget
+    btop
+    bat
+    fastfetch
+  ];
+
+  networking.networkmanager.enable = true;
 
   system.stateVersion = "26.05"; # DO NOT EDIT, VERY IMPORTANT!
 }
