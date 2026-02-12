@@ -5,7 +5,7 @@
     environment.systemPackages = with pkgs; [
         gcc
         binutils
-        python
+        python3
         gnumake
         ninja
     ];
