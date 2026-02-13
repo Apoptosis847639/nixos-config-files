@@ -8,6 +8,7 @@
         python3
         gnumake
         ninja
+	gh
     ];
     programs.git = {
     enable = true;
