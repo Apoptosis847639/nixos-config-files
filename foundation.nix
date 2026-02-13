@@ -9,6 +9,7 @@
   environment.systemPackages = with pkgs; [
     vim
     wget
+    neovim
     btop
     bat
     fastfetch

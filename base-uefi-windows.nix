@@ -5,7 +5,7 @@
 
 {
    imports = [
-    foundation.nix # Importing the foundation
+    ./foundation.nix # Importing the foundation
     ./modules/uefi-osprober.nix # Importing OSProber support
    ];
 
