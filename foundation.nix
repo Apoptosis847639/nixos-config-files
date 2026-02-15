@@ -13,6 +13,7 @@
     btop
     bat
     fastfetch
+    tmux
   ];
 
   networking.networkmanager.enable = true;

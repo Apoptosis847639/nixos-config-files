@@ -4,13 +4,11 @@
 
 {
     imports = [
-        ./modules/user.nix
 	./modules/pipewire.nix
 	./modules/zsh.nix
     ];
     environment.systemPackages = with pkgs; [
         kitty # Add Kitty, the terminal emulator
-    	libxxf86vm # Adds a lib needed for mc to boot
     ];
     # Enable the X11 windowing system.
     services.xserver.enable = true;

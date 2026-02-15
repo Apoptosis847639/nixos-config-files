@@ -15,7 +15,9 @@
 	./modules/flatpak.nix
 	./modules/roblox.nix
 	./modules/audacity.nix
+	./modules/flakesconfig.nix
 	# ./modules/home-manager.nix  won't download!
+	./modules/vscode.nix
     ];
 
     networking.hostName = "apops-nixos";

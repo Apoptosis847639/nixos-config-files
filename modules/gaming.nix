@@ -9,5 +9,6 @@
         steam
         discord
         spotify
+	prismlauncher
     ];
 }

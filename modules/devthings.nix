@@ -9,6 +9,8 @@
         gnumake
         ninja
 	gh
+	openjdk8
+	fontconfig
     ];
     programs.git = {
     enable = true;
